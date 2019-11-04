@@ -1,0 +1,39 @@
+{
+  "name": "light-scroll",
+  "version": "1.0.0",
+  "description": "Smooth scrolling for the web",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msdog/light-scroll.git"
+  },
+  "keywords": [
+    "vue-scroll",
+    "vue-directive-scroll",
+    "scrolling",
+    "Smooth",
+    "iscroll",
+    "light-scroll"
+  ],
+  "author": "451652176@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msdog/light-scroll/issues"
+  },
+  "homepage": "https://github.com/msdog/light-scroll#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
